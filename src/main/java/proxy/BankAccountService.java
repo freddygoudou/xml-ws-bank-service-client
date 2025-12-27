@@ -18,7 +18,7 @@ import jakarta.xml.ws.ResponseWrapper;
  * Generated source version: 3.0
  * 
  */
-@WebService(name = "BankAccountService", targetNamespace = "http://xmlwsbankservice.mtn.bj/")
+@WebService(name = "BankAccountService", targetNamespace = "http://xmlwsbankservice.enset.com/")
 @XmlSeeAlso({
     ObjectFactory.class
 })
@@ -33,9 +33,9 @@ public interface BankAccountService {
      */
     @WebMethod(operationName = "ConversionEuroToDh")
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "ConversionEuroToDh", targetNamespace = "http://xmlwsbankservice.mtn.bj/", className = "proxy.ConversionEuroToDh")
-    @ResponseWrapper(localName = "ConversionEuroToDhResponse", targetNamespace = "http://xmlwsbankservice.mtn.bj/", className = "proxy.ConversionEuroToDhResponse")
-    @Action(input = "http://xmlwsbankservice.mtn.bj/BankAccountService/ConversionEuroToDhRequest", output = "http://xmlwsbankservice.mtn.bj/BankAccountService/ConversionEuroToDhResponse")
+    @RequestWrapper(localName = "ConversionEuroToDh", targetNamespace = "http://xmlwsbankservice.enset.com/", className = "proxy.ConversionEuroToDh")
+    @ResponseWrapper(localName = "ConversionEuroToDhResponse", targetNamespace = "http://xmlwsbankservice.enset.com/", className = "proxy.ConversionEuroToDhResponse")
+    @Action(input = "http://xmlwsbankservice.enset.com/BankAccountService/ConversionEuroToDhRequest", output = "http://xmlwsbankservice.enset.com/BankAccountService/ConversionEuroToDhResponse")
     public double conversionEuroToDh(
         @WebParam(name = "montant", targetNamespace = "")
         double montant);
@@ -48,9 +48,9 @@ public interface BankAccountService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getAccount", targetNamespace = "http://xmlwsbankservice.mtn.bj/", className = "proxy.GetAccount")
-    @ResponseWrapper(localName = "getAccountResponse", targetNamespace = "http://xmlwsbankservice.mtn.bj/", className = "proxy.GetAccountResponse")
-    @Action(input = "http://xmlwsbankservice.mtn.bj/BankAccountService/getAccountRequest", output = "http://xmlwsbankservice.mtn.bj/BankAccountService/getAccountResponse")
+    @RequestWrapper(localName = "getAccount", targetNamespace = "http://xmlwsbankservice.enset.com/", className = "proxy.GetAccount")
+    @ResponseWrapper(localName = "getAccountResponse", targetNamespace = "http://xmlwsbankservice.enset.com/", className = "proxy.GetAccountResponse")
+    @Action(input = "http://xmlwsbankservice.enset.com/BankAccountService/getAccountRequest", output = "http://xmlwsbankservice.enset.com/BankAccountService/getAccountResponse")
     public Account getAccount(
         @WebParam(name = "code", targetNamespace = "")
         int code);
@@ -62,9 +62,9 @@ public interface BankAccountService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "listAccounts", targetNamespace = "http://xmlwsbankservice.mtn.bj/", className = "proxy.ListAccounts")
-    @ResponseWrapper(localName = "listAccountsResponse", targetNamespace = "http://xmlwsbankservice.mtn.bj/", className = "proxy.ListAccountsResponse")
-    @Action(input = "http://xmlwsbankservice.mtn.bj/BankAccountService/listAccountsRequest", output = "http://xmlwsbankservice.mtn.bj/BankAccountService/listAccountsResponse")
+    @RequestWrapper(localName = "listAccounts", targetNamespace = "http://xmlwsbankservice.enset.com/", className = "proxy.ListAccounts")
+    @ResponseWrapper(localName = "listAccountsResponse", targetNamespace = "http://xmlwsbankservice.enset.com/", className = "proxy.ListAccountsResponse")
+    @Action(input = "http://xmlwsbankservice.enset.com/BankAccountService/listAccountsRequest", output = "http://xmlwsbankservice.enset.com/BankAccountService/listAccountsResponse")
     public List<Account> listAccounts();
 
 }

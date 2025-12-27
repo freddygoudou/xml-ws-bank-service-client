@@ -17,14 +17,14 @@ import jakarta.xml.ws.WebServiceFeature;
  * Generated source version: 3.0
  * 
  */
-@WebServiceClient(name = "BankWS", targetNamespace = "http://xmlwsbankservice.mtn.bj/", wsdlLocation = "http://localhost:8686/?wsdl")
+@WebServiceClient(name = "BankWS", targetNamespace = "http://xmlwsbankservice.enset.com/", wsdlLocation = "http://localhost:8686/?wsdl")
 public class BankWS
     extends Service
 {
 
     private static final URL BANKWS_WSDL_LOCATION;
     private static final WebServiceException BANKWS_EXCEPTION;
-    private static final QName BANKWS_QNAME = new QName("http://xmlwsbankservice.mtn.bj/", "BankWS");
+    private static final QName BANKWS_QNAME = new QName("http://xmlwsbankservice.enset.com/", "BankWS");
 
     static {
         URL url = null;
@@ -69,7 +69,7 @@ public class BankWS
      */
     @WebEndpoint(name = "BankAccountServicePort")
     public BankAccountService getBankAccountServicePort() {
-        return super.getPort(new QName("http://xmlwsbankservice.mtn.bj/", "BankAccountServicePort"), BankAccountService.class);
+        return super.getPort(new QName("http://xmlwsbankservice.enset.com/", "BankAccountServicePort"), BankAccountService.class);
     }
 
     /**
@@ -81,7 +81,7 @@ public class BankWS
      */
     @WebEndpoint(name = "BankAccountServicePort")
     public BankAccountService getBankAccountServicePort(WebServiceFeature... features) {
-        return super.getPort(new QName("http://xmlwsbankservice.mtn.bj/", "BankAccountServicePort"), BankAccountService.class, features);
+        return super.getPort(new QName("http://xmlwsbankservice.enset.com/", "BankAccountServicePort"), BankAccountService.class, features);
     }
 
     private static URL __getWsdlLocation() {

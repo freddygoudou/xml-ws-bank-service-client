@@ -24,12 +24,12 @@ import jakarta.xml.bind.annotation.XmlRegistry;
 @XmlRegistry
 public class ObjectFactory {
 
-    private static final QName _ConversionEuroToDh_QNAME = new QName("http://xmlwsbankservice.mtn.bj/", "ConversionEuroToDh");
-    private static final QName _ConversionEuroToDhResponse_QNAME = new QName("http://xmlwsbankservice.mtn.bj/", "ConversionEuroToDhResponse");
-    private static final QName _GetAccount_QNAME = new QName("http://xmlwsbankservice.mtn.bj/", "getAccount");
-    private static final QName _GetAccountResponse_QNAME = new QName("http://xmlwsbankservice.mtn.bj/", "getAccountResponse");
-    private static final QName _ListAccounts_QNAME = new QName("http://xmlwsbankservice.mtn.bj/", "listAccounts");
-    private static final QName _ListAccountsResponse_QNAME = new QName("http://xmlwsbankservice.mtn.bj/", "listAccountsResponse");
+    private static final QName _ConversionEuroToDh_QNAME = new QName("http://xmlwsbankservice.enset.com/", "ConversionEuroToDh");
+    private static final QName _ConversionEuroToDhResponse_QNAME = new QName("http://xmlwsbankservice.enset.com/", "ConversionEuroToDhResponse");
+    private static final QName _GetAccount_QNAME = new QName("http://xmlwsbankservice.enset.com/", "getAccount");
+    private static final QName _GetAccountResponse_QNAME = new QName("http://xmlwsbankservice.enset.com/", "getAccountResponse");
+    private static final QName _ListAccounts_QNAME = new QName("http://xmlwsbankservice.enset.com/", "listAccounts");
+    private static final QName _ListAccountsResponse_QNAME = new QName("http://xmlwsbankservice.enset.com/", "listAccountsResponse");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: proxy
@@ -116,7 +116,7 @@ public class ObjectFactory {
      * @return
      *     the new instance of {@link JAXBElement }{@code <}{@link ConversionEuroToDh }{@code >}
      */
-    @XmlElementDecl(namespace = "http://xmlwsbankservice.mtn.bj/", name = "ConversionEuroToDh")
+    @XmlElementDecl(namespace = "http://xmlwsbankservice.enset.com/", name = "ConversionEuroToDh")
     public JAXBElement<ConversionEuroToDh> createConversionEuroToDh(ConversionEuroToDh value) {
         return new JAXBElement<>(_ConversionEuroToDh_QNAME, ConversionEuroToDh.class, null, value);
     }
@@ -129,7 +129,7 @@ public class ObjectFactory {
      * @return
      *     the new instance of {@link JAXBElement }{@code <}{@link ConversionEuroToDhResponse }{@code >}
      */
-    @XmlElementDecl(namespace = "http://xmlwsbankservice.mtn.bj/", name = "ConversionEuroToDhResponse")
+    @XmlElementDecl(namespace = "http://xmlwsbankservice.enset.com/", name = "ConversionEuroToDhResponse")
     public JAXBElement<ConversionEuroToDhResponse> createConversionEuroToDhResponse(ConversionEuroToDhResponse value) {
         return new JAXBElement<>(_ConversionEuroToDhResponse_QNAME, ConversionEuroToDhResponse.class, null, value);
     }
@@ -142,7 +142,7 @@ public class ObjectFactory {
      * @return
      *     the new instance of {@link JAXBElement }{@code <}{@link GetAccount }{@code >}
      */
-    @XmlElementDecl(namespace = "http://xmlwsbankservice.mtn.bj/", name = "getAccount")
+    @XmlElementDecl(namespace = "http://xmlwsbankservice.enset.com/", name = "getAccount")
     public JAXBElement<GetAccount> createGetAccount(GetAccount value) {
         return new JAXBElement<>(_GetAccount_QNAME, GetAccount.class, null, value);
     }
@@ -155,7 +155,7 @@ public class ObjectFactory {
      * @return
      *     the new instance of {@link JAXBElement }{@code <}{@link GetAccountResponse }{@code >}
      */
-    @XmlElementDecl(namespace = "http://xmlwsbankservice.mtn.bj/", name = "getAccountResponse")
+    @XmlElementDecl(namespace = "http://xmlwsbankservice.enset.com/", name = "getAccountResponse")
     public JAXBElement<GetAccountResponse> createGetAccountResponse(GetAccountResponse value) {
         return new JAXBElement<>(_GetAccountResponse_QNAME, GetAccountResponse.class, null, value);
     }
@@ -168,7 +168,7 @@ public class ObjectFactory {
      * @return
      *     the new instance of {@link JAXBElement }{@code <}{@link ListAccounts }{@code >}
      */
-    @XmlElementDecl(namespace = "http://xmlwsbankservice.mtn.bj/", name = "listAccounts")
+    @XmlElementDecl(namespace = "http://xmlwsbankservice.enset.com/", name = "listAccounts")
     public JAXBElement<ListAccounts> createListAccounts(ListAccounts value) {
         return new JAXBElement<>(_ListAccounts_QNAME, ListAccounts.class, null, value);
     }
@@ -181,7 +181,7 @@ public class ObjectFactory {
      * @return
      *     the new instance of {@link JAXBElement }{@code <}{@link ListAccountsResponse }{@code >}
      */
-    @XmlElementDecl(namespace = "http://xmlwsbankservice.mtn.bj/", name = "listAccountsResponse")
+    @XmlElementDecl(namespace = "http://xmlwsbankservice.enset.com/", name = "listAccountsResponse")
     public JAXBElement<ListAccountsResponse> createListAccountsResponse(ListAccountsResponse value) {
         return new JAXBElement<>(_ListAccountsResponse_QNAME, ListAccountsResponse.class, null, value);
     }

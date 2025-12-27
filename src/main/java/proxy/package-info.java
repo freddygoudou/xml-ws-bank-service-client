@@ -1,2 +1,2 @@
-@jakarta.xml.bind.annotation.XmlSchema(namespace = "http://xmlwsbankservice.mtn.bj/")
+@jakarta.xml.bind.annotation.XmlSchema(namespace = "http://xmlwsbankservice.enset.com/")
 package proxy;
