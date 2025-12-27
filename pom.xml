@@ -8,7 +8,7 @@
         <version>4.0.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>bj.mtn</groupId>
+    <groupId>com.enset</groupId>
     <artifactId>xml-ws-bank-service-client</artifactId>
     <version>1.0.0</version>
     <name>xml-ws-bank-service-client</name>
